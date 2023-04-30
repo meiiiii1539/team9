@@ -1,0 +1,135 @@
+html, body{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    height: 100%;
+    background-color: #f6efeb;
+    font-family: system-ui;
+}
+::selection{
+    background-color: #f6d8d4;
+}
+.upper{
+    background-color: #f18d7e;
+    height: 7.1%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.upper div{
+    color: white;
+    position: relative;
+    left: 1%;
+}
+.login_container{
+    height: 100%;
+    background-color: #f6efeb;
+    text-align: center;
+}
+.login_word{
+    width: 100%;
+    text-align: center;
+    font-size: 250%;
+    color: #f18d7e;
+    height: 15%;
+    position: relative;
+    top: 20%;
+}
+.account_container{
+    height: 8%;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.account_input{
+    border-width: 2px;
+    border-color: #f8c1b8;
+    background-color: #f6efeb;
+    color: #f18d7e;
+    height: 100%;
+    width: 30%;
+}
+.account_input:hover{
+    border-width: 3px;
+}
+.account_input::-webkit-input-placeholder{
+    color: #f18d7e;
+    left: 2%;
+}
+.account_input:focus{
+    outline: none;
+}
+#password_input{
+    position: relative;
+    top: 35%;
+}
+#login_button{
+    outline: none;
+    border: 0;
+    background-color: #f18d7e;
+    color: #f6efeb;
+    height: 8%;
+    width: 7%;
+    position: relative;
+    top: 37%;
+    cursor: pointer;
+}
+#login_button:hover{
+    width: 7.1%;
+    height: 8.1%;
+    cursor: pointer;
+}
+.register{
+    position: relative;
+    top: 38%;
+}
+.registera{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    border-bottom: 1px solid black;
+}
+.registera:hover{
+    border-bottom: 2.5px solid black;
+}
+
+/* register */
+#name_input{
+    position: relative;
+    top: 70%;
+}
+#roomnum_input{
+    position: relative;
+    top: 120%;
+}
+#member_photo{
+    position: relative;
+    top: 160%;
+    border-width: 2px;
+    border-color: #f8c1b8;
+    background-color: #f6efeb;
+    color: #f18d7e;
+}
+#select_photo{
+    position: relative;
+    top: 140%;
+    width: 74.5%;
+    color: #f18d7e;
+    font-weight: bold;
+}
+#register_button{
+    outline: none;
+    border: 0;
+    background-color: #f18d7e;
+    color: #f6efeb;
+    height: 8%;
+    width: 7%;
+    position: relative;
+    top: 70%;
+    cursor: pointer;
+}
+#register_button:hover{
+    width: 7.1%;
+    height: 8.1%;
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+/* -------------------------------- */
+footer{
+    margin-top: 4%;
+    height: 40%;
+    border-top: 1px solid #e0d2cd96;
+    border-bottom: 1px solid #e0d2cd96;
+    background-color: #f6efeb;
+}
+.upper_footer{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e0d2cd96;
+}
+.latter_footer{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: #ccc;
+}
+.footer_left{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #e0d2cd96;
+    border-right: 1px solid #e0d2cd96;
+}
+.footer_right{
+    height: 100%;
+    width: 45%;
+    border-right: 1px solid #e0d2cd96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding-top: 2.5%; */
+}
+.footer_table{
+    color: #f18d7e;
+    width: 85%;
+    height: 15%;
+    font-size: large;
+    font-weight: bold;
+}
+.footer_lists{
+    height: 45%;
+    width: 85%;
+}
+.footer_lists ul li{
+    list-style-image: linear-gradient(0deg, #f18d7e, #f1beb7);
+}
+.footer_lists ul li a{
+    text-decoration: none;
+    color: #f18d7e;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.footer_lists ul li a:hover{
+    text-decoration: underline;
+}

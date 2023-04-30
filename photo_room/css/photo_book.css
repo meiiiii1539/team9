@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(245,241,238);
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    margin-top: 50px;
+    background-color: white;
+    position: relative;
+    width: 60%;
+    border-radius: 6px;
+    padding: 7px 38px 12px;
+    
+}
+.flex_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo_describe_container {
+    margin-right: 3%;
+    margin-top: 25px;
+}
+.photo_describe_container p {
+    line-height: 19px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.photo_describe_container .img_num {
+    font-weight: lighter;
+    margin-top: 5px;
+    opacity: 0.7;
+    
+}
+.photo_block {
+    border-radius: 5px;
+    width: 168px;
+    height: 168px;
+    background-color: #82BEBC;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.photo_block:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+h2 {
+    margin-bottom: 40px;
+}
+.add_photo{
+    text-align: center;
+    font-size: 100px;
+}
+
+.Photo {
+    border-radius: 5px;
+    background-image: url(../static/oreo.JPG);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+/*相片展示的部份*/
+.demo_block{
+    margin-top: 50px;
+    background-color: white;
+    position: relative;
+    width: 60%;
+    border-radius: 6px;
+    padding: 7px 38px 12px;
+}
+
+.modbutton {
+    margin-top: 22px;
+    align-items: center;
+    background: #82BEBC;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    height: 32px;
+    justify-content: center;
+    user-select: none;
+    width: 70px;
+}
+
+.confirmbutton {
+    margin-top: 22px;
+    align-items: center;
+    background: rgb(240,137,132);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    height: 32px;
+    justify-content: center;
+    user-select: none;
+    width: 70px;
+}
+
+.confirmbutton:hover {
+    background: rgb(243, 104, 96);
+}
+.modbutton:hover {
+    background: #57c5c1;
+}
+
+.top_panel {
+    display: flex;
+    justify-content: space-between;
+}

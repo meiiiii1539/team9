@@ -1,0 +1,184 @@
+/* 寶寶粉#f08984 */
+/* #f5f1ee */
+body {
+    width: 100%;
+    height: 88%;
+    margin: 0px;
+}
+
+.wrap {
+    width: 70%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.leftpanel {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    text-align: left;
+    border: #f08984 solid 3px;
+}
+
+.rightpanel {
+    width: 100%;
+    height: 100%;
+    background-color: #f08984;
+
+}
+
+.rightpaneldown {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+.head {
+    width: 100%;
+    height: 15%;
+    background-color: #f08984;
+}
+
+.partnername {
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 1%;
+    color: #f5f1ee;
+}
+
+.partneraccount {
+    margin: 0px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0px;
+    color: #f5f1ee;
+}
+
+#innerright {
+    height: 90%;
+    width: 100%;
+    background-color: #f5f1ee;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* text-align: right; */
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+
+}
+
+
+.profileimg {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.profilecut {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    border: white thin solid;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+.profileimgzone {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 20%; */
+    margin-top: 20%;
+}
+
+.leftpanel p {
+    color: #f08984;
+
+}
+
+
+
+.currentchatbox {
+    text-align: right;
+    width: 30%;
+    max-height: 20%;
+    background-color: #f08984;
+    margin-left: 65%;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.currentchatbox p {
+    padding: 12px;
+}
+
+.currentp {
+    /* 每條訊息上面的名字 */
+    text-align: right;
+    margin-bottom: 0px;
+    margin-right: 5%;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.partnerp {
+    /* 每條訊息上面的名字 */
+    text-align: left;
+    margin-bottom: 0px;
+    margin-right: 10%;
+    font-weight: bolder;
+    margin-left: 5%;
+    font-size: 12px;
+}
+
+.partnerchatbox {
+    text-align: left;
+    font-size: 15px;
+    width: 30%;
+    max-height: 20%;
+    background-color: #f5f1ee;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 2%;
+    border: solid 4px #f08984;
+    border-radius: 12px;
+}
+
+.partnerchatbox p {
+    padding: 12px;
+
+}
+
+#textputinhere_outside {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 45%;
+    height: 7%;
+    margin-left: 6%;
+    bottom: 3%;
+}
+
+#textputinhere {
+
+    width: 100%;
+    height: 100%;
+}
+
+#sendtext {
+    margin: 1%;
+    height: 100%;
+}
+
+.currentinfo {
+    margin: 0px;
+    font-size: 12px;
+}
